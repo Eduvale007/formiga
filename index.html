@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleção de Poemas</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #5e4c3e;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .cabecalho {
+            text-align: center;
+            color: #f2e8c9;
+            margin-bottom: 30px;
+        }
+        
+        .cabecalho h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        
+        .cabecalho p {
+            font-style: italic;
+            margin-top: 0;
+        }
+        
+        .poemas-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .poema-item {
+            background-color: #f2e8c9;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            border-radius: 5px;
+            position: relative;
+            border: 1px solid #d3b683;
+            margin-bottom: 50px;
+        }
+        
+        .titulo-poema {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #5e4c3e;
+            text-align: center;
+            font-weight: normal;
+            font-family: 'Times New Roman', serif;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #d3b683;
+            padding-bottom: 15px;
+        }
+        
+        .poema {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #483c32;
+            margin-bottom: 30px;
+        }
+        
+        .verso {
+            margin-bottom: 10px;
+        }
+        
+        .estrofe {
+            margin-bottom: 30px;
+        }
+        
+        .autor {
+            text-align: right;
+            font-style: italic;
+            color: #5e4c3e;
+        }
+        
+        .indice {
+            background-color: #f2e8c9;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            border: 1px solid #d3b683;
+        }
+        
+        .indice h2 {
+            color: #5e4c3e;
+            margin-top: 0;
+            text-align: center;
+            border-bottom: 1px solid #d3b683;
+            padding-bottom: 10px;
+        }
+        
+        .indice ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .indice li {
+            margin-bottom: 10px;
+            width: 48%;
+        }
+        
+        .indice a {
+            color: #5e4c3e;
+            text-decoration: none;
+            display: block;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+        
+        .indice a:hover {
+            background-color: #e8deb5;
+            border-radius: 3px;
+        }
+        
+        @media (max-width: 600px) {
+            .poema-item {
+                padding: 20px;
+            }
+            
+            .titulo-poema {
+                font-size: 24px;
+            }
+            
+            .poema {
+                font-size: 16px;
+            }
+            
+            .indice li {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cabecalho">
+        <h1>Coleção de Poemas</h1>
+        <p>Para meu docin</p>
+    </div>
+    
+    <div class="poemas-container">
+        <div class="indice">
+            <h2>Índice</h2>
+            <ul>
+                <li><a href="#poema1">Você em minha vida</a></li>
+                <li><a href="#poema2">Seu sorriso</a></li>
+                <li><a href="#poema3">Minha joia rara</a></li>
+                <li><a href="#poema4">Seu amor, meu mundo</a></li>
+                <li><a href="#poema5">Para minha formiguinha</a></li>
+                <li><a href="#poema6">Meu amor infinito</a></li>
+                <!--
+                <li><a href="#poema7">Título do Poema 7</a></li>
+                <li><a href="#poema8">Título do Poema 8</a></li>
+                <li><a href="#poema9">Título do Poema 9</a></li>
+                <li><a href="#poema10">Título do Poema 10</a></li>
+                <li><a href="#poema11">Título do Poema 11</a></li>
+                <li><a href="#poema12">Título do Poema 12</a></li>
+                <li><a href="#poema13">Título do Poema 13</a></li>
+                <li><a href="#poema14">Título do Poema 14</a></li>
+                <li><a href="#poema15">Título do Poema 15</a></li>
+                -->
+            </ul>
+        </div>
+        
+        <!-- Poema 1 -->
+        <div id="poema1" class="poema-item">
+            <h2 class="titulo-poema">Você em minha vida</h2>
+            
+            <div class="poema">
+                <div class="estrofe">
+                    <div class="verso">Nos seus olhos eu vejo estrelas</div>
+                    <div class="verso">um brilho doce a iluminar</div>
+                    <div class="verso">o sol que aquece minha alma</div>
+                    <div class="verso">como o mar a me acalmar.</div>
+                </div>
+                
+                <div class="estrofe">
+                    <div class="verso">Seu sorriso é melodia</div>
+                    <div class="verso">um réfugio um abraço</div>
+                    <div class="verso">onde eu sempre quero estar.</div>
+                </div>
+                
+                <div class="estrofe">
+                    <div class="verso">Nos seus beijos</div>
+                    <div class="verso">eu encontro paz</div>
+                    <div class="verso">te amar é um presente amor</div>
+                    <div class="verso">eu quero sempre mais.</div>
+                </div>
+            </div>
+            
+        
+        </div>
+        
+        <!-- Poema 2 -->
+        <div id="poema2" class="poema-item">
+            <h2 class="titulo-poema">Seu sorriso</h2>
+            
+            <div class="poema">
+                <div class="estrofe">
+                    <div class="verso">Seu sorriso é o sol que ilumina meu dia</div>
+                    <div class="verso">A melodia suave da mais bela harmonia</div>
+                    <div class="verso">Seu olhar meu abrigo</div>
+                    <div class="verso">Nele eu me perco e me curo.</div>
+                </div>
+                
+                <div class="estrofe">
+                    <div class="verso">Sua mão me aquece e acalma</div>
+                    <div class="verso">O toque macio que envolve minha alma</div>
+                    <div class="verso">Sua voz é canção que embala meu ser</div>
+                    <div class="verso">Cada palavra me faz renascer</div>
+                </div>
+
+                <div class="estrofe">
+                    <div class="verso">Se o mundo é confuso e incerto</div>
+                    <div class="verso">Nos seus braços be, me sinto perto</div>
+                    <div class="verso">Oc é meu sonho minha poesia</div>
+                    <div class="verso">Minha paz, minha doce alegria.</div>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- Poema 3 -->
+        <div id="poema3" class="poema-item">
+            <h2 class="titulo-poema">Minha joia rara</h2>
+            
+            <div class="poema">
+                <div class="estrofe">
+                    <div class="verso">Oc me faz rir sem esforço</div>
+                    <div class="verso">me faz ser eu sem pensar</div>
+                    <div class="verso">com oc tudo é leve</div> 
+                    <div class="verso">tudo faz sentido.</div> 
+                </div>
+                
+                <div class="estrofe">
+                    <div class="verso">Amo o jeito que ri</div>
+                    <div class="verso">A forma como me olha</div>
+                    <div class="verso">A paz que me traz</div>
+                    <div class="verso">Como se o mundo não importasse mais mor.</div>
+                </div>
+
+                <div class="estrofe">
+                    <div class="verso">Oc é minha joia rara</div>
+                    <div class="verso">Única, sem comparação</div>
+                    <div class="verso">A cada dia que passa</div>
+                    <div class="verso">Meu amor só aumenta</div>
+                </div>
+            </div>
+            
+
+        </div>
+        
+        <!-- Modelo para os demais poemas (4-15) -->
+        <!-- Poema 4 -->
+        <div id="poema4" class="poema-item">
+            <h2 class="titulo-poema">Seu amor, meu mundo</h2>
+            
+            <div class="poema">
+                <div class="estrofe">
+                    <div class="verso">Amo seu jeito mor</div>
+                    <div class="verso">Seu olhar me acalma</div>
+                    <div class="verso">Seu jeito doce e leve</div>
+                    <div class="verso">Que me encanta mor.</div>
+                </div>
+                
+                <div class="estrofe">
+                    <div class="verso">Quando oc me chama de bebê</div>
+                    <div class="verso">Me perco no seu carinho mor</div>
+                    <div class="verso">Seu amor me envolve</div>
+                    <div class="verso">Seu amor é meu caminho.</div>
+                </div>
+
+                <div class="estrofe">
+                    <div class="verso">Quando me chama de geladeira</div>
+                    <div class="verso">Cria nomes sem igual mor</div>
+                    <div class="verso">Cada palavra sua be</div>
+                    <div class="verso">Faz o meu dia especial.</div>
+                </div>
+
+                
+                <div class="estrofe">
+                    <div class="verso">Admiro oc, te desejo</div>
+                    <div class="verso">Seu amor me faz viver be</div>
+                    <div class="verso">Oc é mue sonho, minha sorte</div>
+                    <div class="verso">Meu motivo para crescer.</div>
+                </div>
+
+                
+                <div class="estrofe">
+                    <div class="verso">E em cada dia com oc</div>
+                    <div class="verso">Só aumenta o que eu sinto mor</div>
+                    <div class="verso">Pois com oc meu amor</div>
+                    <div class="verso">O futuro é mais bonito.</div>
+                </div>
+            </div>
+
+
+            
+
+
+          
+            
+
+        </div>
+
+        <div id="poema5" class="poema-item">
+            <h2 class="titulo-poema">Para minha formiguinha</h2>
+            
+            <div class="poema">
+                <div class="estrofe">
+                    <div class="verso">Minha doce formiguinha, tão forte e tão linda</div>
+                    <div class="verso">Seu jeito leve</div>
+                    <div class="verso">Seu caringo aquece, teu sorriso ilumina</div>
+                    <div class="verso">É força e doçura, é minha menina.</div>
+                </div>
+                
+                <div class="estrofe">
+                    <div class="verso">Pequenininha no nome, gigante em querer</div>
+                    <div class="verso">Me inspira a viver</div>
+                    <div class="verso">Seus passos firmes, no brilho do olhar</div>
+                    <div class="verso">Vejo um mundo inteiro no seu olhar.</div>
+                </div>
+
+                <div class="estrofe">
+                    <div class="verso">Mulher incrivél, amor sem igual</div>
+                    <div class="verso">Minha formiguinha, meu porto</div>
+                    <div class="verso">Hoje e sempre quero te enaltecer</div>
+                    <div class="verso">É um presente que eu amo ter.</div>
+                </div>
+            </div>
+
+            
+
+            
+        
+        <!-- Copie e cole o bloco acima para adicionar os poemas restantes (5-15) -->
+        <!-- Lembre-se de alterar os IDs (poema5, poema6, etc.) e os títulos -->
+        
+    </div>
+
+    <div id="poema6" class="poema-item">
+        <h2 class="titulo-poema">Meu amor infinito</h2>
+        
+        <div class="poema">
+            <div class="estrofe">
+                <div class="verso">Nos encontramos no mundo virtual</div>
+                <div class="verso">Mas logo o real nos uniu be, de forma especial</div>
+                <div class="verso">Olhos que brilham como nunca vi antes</div>
+                <div class="verso">Um olhar que acende a alma, que quebra todos os montes.</div>
+            </div>
+            
+            <div class="estrofe">
+                <div class="verso">Seu sorriso tão lindo</div>
+                <div class="verso">Fez meu coração bater mais forte em um segundo</div>
+                <div class="verso">No seu abraço encontrei meu lugar</div>
+                <div class="verso">Onde o mundo parou e eu só queria ficar.</div>
+            </div>
+
+            
+            <div class="estrofe">
+                <div class="verso">O carinho no meu cabelo be, tão doce e sereno</div>
+                <div class="verso">Fez eu me sentir em casa, mesmo sendo terreno</div>
+                <div class="verso">Entre assuntos bobos e risadas sinceras</div>
+                <div class="verso">Criamos um laço que o tempo não quebra be.</div>
+            </div>
+
+            
+            <div class="estrofe">
+                <div class="verso">E então o primeiro beijo, congelando o instante</div>
+                <div class="verso">Onde o tempo desapareceu, e o amor foi constante</div>
+                <div class="verso">Onde o futuro foi escrito em silêncio e mudo.</div>
+            </div>
+
+
+            
+            <div class="estrofe">
+                <div class="verso">Desde então, ao seu lado, meu coração encontrou paz</div>
+                <div class="verso">Em cada gesto, em cada toque, amor que nunca se desfaz</div>
+                <div class="verso">Juntos somos mais que duas almas be, somos um só ser</div>
+                <div class="verso">E em cada dia ao seu lado, aprendo a te entender mor.</div>
+            </div>
+        </div>
+
+
+        
+        
+</body>
+</html>
